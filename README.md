@@ -12,23 +12,29 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### Interactive Dashboard to display 
-## Demo
-![Demo](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/ezgif.com-video-to-gif.gif)
+### Interactive Dashboard to display stock price prediction over time.
+Input parameters : -
+1. Stock Name (Chose from Drop Down)
+2. Model for Prediction (Chose from Drop Down)
 
-## Code
-![Code](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/code.PNG)
+Data was collected fro stocks individually for a window of 5 years and kept in the storage. Logic was developed to chose from the stock data.
 
-## Dashbord
-![Output-Data](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/Capture3.PNG)
+## Deploy ![Link](https://stock-price-predictordashboard.herokuapp.com/)
 
+## Screenshots
+### Demo Screenshot
+![Demo](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/ezgif.com-video-to-gif.gif)
 
-## Prediction result
-![predic](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/Capture1.PNG)
+### Dashboard
+![Output-Data](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/Capture3.PNG)
 
-## Models evaluation
-![evaluation](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/Capture2.PNG)
-![evaluation](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/Plot.png)
+### Prediction result
+![predic](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/Capture1.PNG)
+
+### Models evaluation
+![evaluation](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/Capture2.PNG)
+![evaluation](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/Plot.png)
+
 
 ### Built With
 
@@ -52,7 +58,7 @@
 ### Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard.git
+git clone https://github.com/drDrozio/Stock-Price-Prediction-Dashboard.git
 ```
 
 2. Install python packages
@@ -62,84 +68,3 @@ pip install sklearn
 pip install flask
 pip install KNN
 ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-This program predicts the price of GOOG stock for a specific day using the Machine Learning algorithm called Support Vector Regression (SVR) Linear Regression.
-Importing flask module in the project is mandatory
-An object of Flask class is our WSGI application.
-
-
-## Contents
-
-```
-├── app.py
-├── GOOG_30_days.csv
-├── train_models.py
-├── utils.py
-├── GOOG_30_days.csv
-```
-
-<!-- ROADMAP -->
-## Roadmap
-See the [open issues](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- LICENSE -->
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-## Contact me
-
-<table>
-  <tr>
-    <th>
-      <ahref="http://zeeshanahmad.me/" >
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/edit1.jpg" alt="Logo" width="182" height="90">
- </a> </th>
-    <th>
-      <a href="http://zeeshanahmad.me/">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/edit2.jpg" alt="Logo" width="182" height="90">
- </a> </th>
-    <th>
-      <a href="http://zeeshanahmad.me/">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/edit3.jpg" alt="Logo" width="182" height="90">
- </a> </th>
-    <th>
-      <a href="http://zeeshanahmad.me/">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/edit41.jpg" alt="Logo" width="182  " height="90">
- </a> </th>
-    </tr>
- </table>
-<table>
-  <tr>
-    <th>
-      <a href="https://www.upwork.com/freelancers/~0180a61cf01f9bc71d" >
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/download.png" alt="Logo" width="182" height="80">
- </a> </th>
-    <th>
-      <a href="https://www.linkedin.com/in/zeeshan-ahmad-87098b105/">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/linked-in-3200.jpg" alt="Logo" width="182" height="80">
- </a> </th>
-    <th>
-      <a href="https://www.kaggle.com/zeeshanahmad4">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/Kaggle_logo.png" alt="Logo" width="182" height="80">
- </a> </th>
-    <th>
-      <a href="https://twitter.com/Zeeshan_Ahmad6">
-    <img src="https://github.com/Zeeshanahmad4/My-Path-to-Python/blob/master/multimedia/twitter-logo-png-open-2000.png" alt="Logo" width="182" height="80">
- </a> </th>
-    </tr>
- </table>
