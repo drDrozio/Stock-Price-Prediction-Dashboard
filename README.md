@@ -14,12 +14,28 @@
 ## About The Project
 ### Interactive Dashboard to display stock price prediction over time.
 Input parameters : -
-1. Stock Name (Chose from Drop Down)
-2. Model for Prediction (Chose from Drop Down)
+1. Stock Name (Choose from Drop Down)
+2. Model for Prediction (Choose from Drop Down)
 
 Data was collected fro stocks individually for a window of 5 years and kept in the storage. Logic was developed to chose from the stock data.
 
+User can select a particular stock for anlysis. The evaluation can be made for multiple machine learning models at the same time using the results obtained on the dashboard. With refernces to actual data points, user can choose the most optimal model for prediction.
+
+Moreover evaluation metrics are also provided for all the models alongside.
+
 ## Deploy ![Link](https://stock-price-predictordashboard.herokuapp.com/)
+
+## Models and algorithims used 
+
+```
+├── SVR
+├── linear_regression
+├── random_forests
+├── keras
+├── KNN
+├── decision_trees
+
+```
 
 ## Screenshots
 ### Demo Screenshot
@@ -36,26 +52,8 @@ Data was collected fro stocks individually for a window of 5 years and kept in t
 ![evaluation](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/pics/Plot.png)
 
 
-### Built With
 
-
-## Models and algorithims
-
-```
-├── SVR
-├── linear_regression
-├── random_forests
-├── keras
-├── KNN
-├── decision_trees
-├── elastic_net
-├── LSTM_model
-
-```
-
-### Prerequisites
-
-### Installation
+## Installation
 1. Clone the repo
 ```sh
 git clone https://github.com/drDrozio/Stock-Price-Prediction-Dashboard.git
@@ -63,8 +61,5 @@ git clone https://github.com/drDrozio/Stock-Price-Prediction-Dashboard.git
 
 2. Install python packages
 ```sh
-pip install matplotlib
-pip install sklearn
-pip install flask
-pip install KNN
+pip install -r requirements.txt
 ```
