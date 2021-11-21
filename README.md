@@ -12,6 +12,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+### Interactive Dashboard to display 
 ## Demo
 ![Demo](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/ezgif.com-video-to-gif.gif)
 
