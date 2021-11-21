@@ -6,23 +6,9 @@
   <a href="https://github.com/Zeeshanahmad4/BOT--Hydrafacial">
     <img src="https://github.com/Zeeshanahmad4/ML--RMSE-with-graphs/blob/master/digital-brain-ai-machine-learning-artificial-intelligence-512.png" alt="Logo" width="110" height="130">
   </a>
-  <h3 align="center">Stock Prices Prediction ML with Flask Dashboard</h3>
+  <h3 align="center">Stock Prices Prediction Dashboard</h3>
 </p>
 
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project).
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -44,13 +30,9 @@
 ![evaluation](https://github.com/Zeeshanahmad4/Stock-Prices-Prediction-ML-Flask-Dashboard/blob/master/pics/Plot.png)
 
 ### Built With
-* [Python](https://www.python.org/)
-* [matplotlib](https://www.python.org/)
-* [sklearn](https://www.python.org/)
-* [flask](https://www.python.org/)
 
 
-## Models and algorithums
+## Models and algorithims
 
 ```
 ├── SVR
