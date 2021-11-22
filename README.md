@@ -37,7 +37,7 @@ The following models were used to train on the dataset
 
 ```
 ### Flowchart
-![plot](./flowchart.PNG)
+![plot](https://github.com/drDrozio/Stock-Price-Prediction-Dashboard/blob/master/flowchart.png)
 
 ## Screenshots
 ### Demo Screenshot
