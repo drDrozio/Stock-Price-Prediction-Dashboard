@@ -25,17 +25,19 @@ Moreover evaluation metrics are also provided for all the models alongside.
 
 ## Deploy ![Link](https://stock-price-predictordashboard.herokuapp.com/)
 
-## Models and algorithims used 
+## Methodology 
+The following models were used to train on the dataset
 
 ```
-├── SVR
-├── linear_regression
-├── random_forests
-├── keras
-├── KNN
-├── decision_trees
+├── Support Vector Regressor (Linear & RBF Kernel)
+├── Linear Regression
+├── Random Forests
+├── K-Nearest Neighbors
+├── Decision Trees
 
 ```
+### Flowchart
+![plot](./flowchart.PNG)
 
 ## Screenshots
 ### Demo Screenshot
